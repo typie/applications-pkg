@@ -1,6 +1,6 @@
 {
   "name": "applications-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Navigate & fuzzy search your Applications",
   "keywords": [
     "typie",
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "electron-is": "^2.4.1",
+    "system-icon": "^0.1.2",
     "typie-sdk": "^1.0.10"
   },
   "repository": {
