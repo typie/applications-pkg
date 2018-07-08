@@ -29,7 +29,7 @@ exports.run = function(typie) {
                     let fileName = path.basename(file.path, file.ext);
                     let item = {title: fileName, t: 'Applications', d: file.desc, p: file.path, i: defaultFileIco, db:'global', c:0};
 
-                    getIconForPath(fileFull, ICON_SIZE_MEDIUM, (err, bitmap) => {
+                    getIconForPath(file.path, ICON_SIZE_MEDIUM, (err, bitmap) => {
                         if (err) {
                             console.error(err);
                         } else {
